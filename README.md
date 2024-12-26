@@ -17,7 +17,6 @@ def generate_qr_code(data, filename):
     img = qr.make_image(fill='black', back_color='white')
     img.save(filename)
 
-# Main function to take user input and generate QR code
 if __name__ == "__main__":
     data = input("Enter the data for the QR code (text, URL, etc.): ")
     filename = input("Enter the filename to save the QR code image (e.g., qr_code.png): ")
