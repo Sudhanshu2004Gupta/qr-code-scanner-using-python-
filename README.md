@@ -24,3 +24,11 @@ if __name__ == "__main__":
     generate_qr_code(data, filename)
     
     print(f"QR code has been generated and saved as {filename}.")
+
+
+   """" evplaination of the code 
+Input Data: The user provides input, which can be any string (e.g., a URL, plain text, etc.).
+QR Code Object: A qrcode.QRCode object is created with various parameters like version, error_correction, box_size, and border.
+Generate QR Code: The add_data method is used to add the input data to the QR code, and make(fit=True) ensures the data fits.
+Save QR Code: The make_image method generates a QR code image, and save is used to save the image as a file."""
+
